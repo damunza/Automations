@@ -22,6 +22,3 @@ def arrange(sentence):
             wordlist[ind-1] = sentencelist[word]
 #  return the sentence
         return ' '.join( [value for key, value in sorted(wordlist.items())] )
-
-a = arrange('Th1is th3e s4mple i2s')
-print(a)
