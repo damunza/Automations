@@ -1,4 +1,0 @@
-**Enter the English message to translate into Pig Latin:
-*My name is AL SWEIGART and I am 4,000 years old.
-*Ymay amenay isyay ALYAY EIGARTSWAY andyay Iyay amyay 4,000 yearsyay oldyay.
-**print(lines)
