@@ -1,7 +1,11 @@
 from piglatin import firstvowel, switch, pig, punct
+from order import arrange
 import unittest
 
-class TestMethods(unittest.TestCase):
+class TestPig(unittest.TestCase):
+    '''
+    testing all the functions and methods in the piglatin program
+    '''
 
     def setUp(self):
         pass
@@ -40,5 +44,19 @@ class TestMethods(unittest.TestCase):
         self.assertEqual(punct(']'), 1)
         self.assertEqual(punct('7'), 0)
         self.assertEqual(punct('A'), 0)
+
+class TestOrder(unittest.TestCase):
+    '''
+    testing the arrange method from order
+    '''
+    def setUp(self):
+        pass
+
+    def test_arrange(self):
+        '''
+        testing if it arrranges the words correctly
+        '''
+        self.assertEqual(arrange('He1y doi5ng h2ow y4ou a3re'), 'He1y h2ow a3re y4ou doi5ng')
+
 
 unittest.main()
