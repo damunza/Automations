@@ -59,4 +59,5 @@ class TestOrder(unittest.TestCase):
         self.assertEqual(arrange('He1y doi5ng h2ow y4ou a3re'), 'He1y h2ow a3re y4ou doi5ng')
 
 
-unittest.main()
+if __name__ == '__main__':
+	unittest.main()
